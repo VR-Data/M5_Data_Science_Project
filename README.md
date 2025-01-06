@@ -1,4 +1,12 @@
 # How Global Economic Shocks Impact UK Investing
+
+### Contents
+- [Project Summary](#project-summary-)
+- GDP vs CPI
+- Key Data Points
+- Getting Started
+- References
+
 ## Project Summary:
 
 The UK economy is currently facing unprecedented challenges as the ripple effects of recent global shocks, such as the COVID-19 pandemic and the Ukraine War, redefine the economic landscape. Inflation has increased beyond anything that we have seen in recent history, and GDP has all but come to a standstill as a result. These crises have also disrupted UK investment dynamics, causing significant fluctuations in investment returns UK sectors, increasing investment risk and lowering investor confidence.
