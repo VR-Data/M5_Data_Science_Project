@@ -30,3 +30,27 @@ These coincide with the three most impactful global economic shocks in recent hi
 1.	The 2007-2008 Global Financial Crisis – Despite beginning in 2007, causing the collapse of Northern Rock in the UK, it wasn’t until the collapse of the Lehman Brother investment back on 15 September 2008[4] that the global economy felt the full weight of this shock. 
 2.	COVID-19 Pandemic – GDP fell by “More than twice as much as the previous largest annual fall on record” according to the ONS via the BBC[5], following lockdown in 2020 as a result of the COVID-19 outbreak.
 3.	The Ukraine War – Following the Russian invasion of Ukraine, global oil prices rose by 11%, meanwhile UK wholesale gas prices rose by 40%[6]. Along with other underlying factors and the combination of an already unstable economic condition in the UK following Brexit and COVID-19.
+
+Due to the complex nature of the subject, especially given the combined effects of the recent events, this report will limit its research to the past 5 years, to investigate and discuss macroeconomic indicators and their effect on the UK investment sector.
+
+## Key Data Points:
+
+**Macroeconomic data:**
+1.	GDP Data – Monthly GDP figures provided by ONS, available at: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/monthlygdpandmainsectorstofourdecimalplaces
+2.	CPI Data – Monthly CPI figures provided by ONS, available at: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceinflation
+
+**Proxies for the UK investment market:**
+1.	FTSE All-Share Index – This index captures nearly all companies listed on the London Stock Exchange’s (LSE) main market and will be used to indicate how UK companies are performing.
+2.	FTSE SmallCap Index – This index captures companies listed on the LSE’s main market that are ranked outside the top 350 largest companies by market capitalisation.
+
+**Proxies for the UK CIS market:**
+The Investment Association (IA) provides broad categories for UK domiciled CIS and provides data based on how these investment vehicles perform in their category as a whole. To mirror the above FTSE benchmarks, the following IA sectors will be used:
+1.	IA UK All Companies – Similar to FTSE All-Share, this category includes CIS that have focus on investing directly into UK companies of any market capitalisation.
+2.	IA UK Smaller Companies – Similar to FTSE SmallCap, this category includes CIS that have focus on investing directly into UK companies with market capitalisation under £100m.
+To learn more about these IA sectors, please visit the IA website[7].
+
+
+
+
+
+
