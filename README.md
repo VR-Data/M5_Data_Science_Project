@@ -1,7 +1,7 @@
 # How Global Economic Shocks Impact UK Investing
 
-### Contents
-- [Project Summary](#project-summary-)
+## Contents
+- Project Summary
 - GDP vs CPI
 - Key Data Points
 - Getting Started
@@ -44,6 +44,7 @@ Due to the complex nature of the subject, especially given the combined effects 
 2.	FTSE SmallCap Index – This index captures companies listed on the LSE’s main market that are ranked outside the top 350 largest companies by market capitalisation.
 
 **Proxies for the UK CIS market:**
+
 The Investment Association (IA) provides broad categories for UK domiciled CIS and provides data based on how these investment vehicles perform in their category as a whole. To mirror the above FTSE benchmarks, the following IA sectors will be used:
 1.	IA UK All Companies – Similar to FTSE All-Share, this category includes CIS that have focus on investing directly into UK companies of any market capitalisation.
 2.	IA UK Smaller Companies – Similar to FTSE SmallCap, this category includes CIS that have focus on investing directly into UK companies with market capitalisation under £100m.
