@@ -24,7 +24,6 @@ When discussing macroeconomic indicators, the first two likely to come to mind f
      height="auto" 
      alt="GDP vs CPI Trend Chart Since 2000">
 
-
 This chart shows the trend for both GDP (real) and inflation via the CPI. There are three areas on this chart that stand out:
 1.	GDP readjustment in 2008 – A significant drop in GDP that did not recover back to its previous trendline.
 2.	GDP drop in 2000 – A unprecedented drop in GDP, however unlike the 2008 drop, GDP returned relatively close to its trendline.
@@ -54,6 +53,18 @@ The Investment Association (IA) provides broad categories for UK domiciled CIS a
 2.	IA UK Smaller Companies – Similar to FTSE SmallCap, this category includes CIS that have focus on investing directly into UK companies with market capitalisation under £100m.
 To learn more about these IA sectors, please visit the IA website[7].
 
+## Getting Started:
+
+### Analysis of GDP, Inflation, and Market Trends Since 2015
+
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/BenchmarkvsGDPCPI2015.png" 
+     width="100%" 
+     height="auto" 
+     alt="Line Chart showing trend of the Market and CIS benchmarks against GDP and CPI since 2015">
+
+Examining the trends since 2015 for the Market and CIS proxies alongside GDP and CPI reveals notable differences. While GDP and CPI exhibit relatively stable trends in normal circumstances, investment returns fluctuate more significantly. The steep GDP drop in 2020 caused by the COVID-19 pandemic heavily impacted investments but returns rebounded strongly as GDP recovered. Small-cap markets, in particular, outperformed during the recovery, with benchmarks showing gains up to 40% higher than the broader market.
+
+Another key observation is the sustained rise in investment returns starting around October 2023, with an average increase of 15% in less than a year. This is particularly striking given the sharp rise in inflation, as indicated by the CPI, since 2021, as well as the known ongoing cost of living crisis. Despite these factors, markets have demonstrated remarkable resilience and growth.
 
 
 
