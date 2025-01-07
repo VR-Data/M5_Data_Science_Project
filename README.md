@@ -66,7 +66,51 @@ Examining the trends since 2015 for the Market and CIS proxies alongside GDP and
 
 Another key observation is the sustained rise in investment returns starting around October 2023, with an average increase of 15% in less than a year. This is particularly striking given the sharp rise in inflation, as indicated by the CPI, since 2021, as well as the known ongoing cost of living crisis. Despite these factors, markets have demonstrated remarkable resilience and growth.
 
+### Using Linear Regression to Compare Benchmarks
 
+The line chart highlights a clear correlation between the FTSE All Share and IA UK All Companies benchmarks, which follow similar trends. Conversely, the FTSE Small Cap and IA UK Smaller Companies benchmarks trend differently, but closely align with each other.
+
+This alignment makes sense given the context: the returns of CIS investments closely mirror those of the broader market, as represented by FTSE benchmarks. To quantify this relationship, linear regression was applied to compare monthly returns for FTSE indices and their corresponding IA benchmarks.
+
+<div align="center">
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/AllshVSUKAllComps.png"
+       width="49%" 
+       alt="Scatter Chart of FTSE All Share against IA UK All Companies, showing a strong positive trend line and R squared value of 0.9235">
+  
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/SmallCapVSUKSmallComps.png"
+       width="49%" 
+       alt="Scatter Chart of FTSE All Share against IA UK All Companies, showing a strong positive trend line and R squared value of 0.8623">
+</div>
+
+The scatter chart confirms a strong correlation between the market and CIS benchmarks, validating the hypothesis that market trends significantly influence UK CIS investments. With R-squared values of 0.9235 and 0.8623, the data strongly supports this relationship.
+
+### Comparing the Market to GDP
+
+Based on these findings, future comparisons will focus on the Market benchmarks, with CIS data revisited later in the analysis to validate conclusions. The next step involves examining the relationship between Market benchmarks and GDP. Real GDP, which accounts for inflation and reflects the overall strength and health of an economy, might be expected to correlate with investment market performance. However, linear regression analysis reveals that this is not the case.
+
+<div align="center">
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/AllshVSGDP.png"
+       width="49%" 
+       alt="Scatter Chart of FTSE All Share against GDP, showing weak correlation and R squared value of 0.0023">
+  
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/SmallCapVSGDP.png"
+       width="49%" 
+       alt="Scatter Chart of FTSE All Share against GDP, showing weak correlation and R squared value of 0.0028">
+</div>
+
+The charts indicate a weak correlation, though interpretation is complicated by significant outliers, primarily from 2020, when GDP experienced an unprecedented drop. To better understand the relationship under normal circumstances, extreme outliers (monthly changes exceeding 5%) were excluded. 
+
+<div align="center">
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/AllshVSUKAllComps.png"
+       width="49%" 
+       alt="Scatter Chart of FTSE All Share against GDP minus outliers, showing weak correlation and R squared value of 0.0103">
+  
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/SmallCapVSUKSmallComps.png"
+       width="49%" 
+       alt="Scatter Chart of FTSE All Share against GDP minus outliers, showing weak correlation and R squared value of 0.011">
+</div>
+
+This adjustment increased the R-squared value, but the correlation between GDP and market performance remained weak. This finding is consistent with a report by C. Wilson on GOV.UK[8], which calculated an R-squared value of 0.0174 for GDP between 1994 and 2018, comparable to the 0.0103 value derived from the adjusted data in this analysis.
 
 
 
