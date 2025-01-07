@@ -19,7 +19,11 @@ In an era of uncertainty, understanding these indicators is critical to navigati
 
 When discussing macroeconomic indicators, the first two likely to come to mind for most people are Gross Domestic Product (GDP), which measures the size of a country’s economy[1], and the Consumer Price Index (CPI), which is used as a measure of inflation[2]. It is important to note, that often when citing figures for GDP, the Office for National Statistics (ONS) refer to what is called the “Real GDP”[3], which takes inflation into account. Let’s put this information into perspective with the following figures:
 
-<img align="above" width="1280" height="540" src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/GDPvsCPIChart2000.png">
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/GDPvsCPIChart2000.png" 
+     width="100%" 
+     height="auto" 
+     alt="GDP vs CPI Trend Chart Since 2000">
+
 
 This chart shows the trend for both GDP (real) and inflation via the CPI. There are three areas on this chart that stand out:
 1.	GDP readjustment in 2008 – A significant drop in GDP that did not recover back to its previous trendline.
