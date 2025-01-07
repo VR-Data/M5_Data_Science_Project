@@ -101,11 +101,11 @@ Based on these findings, future comparisons will focus on the Market benchmarks,
 The charts indicate a weak correlation, though interpretation is complicated by significant outliers, primarily from 2020, when GDP experienced an unprecedented drop. To better understand the relationship under normal circumstances, extreme outliers (monthly changes exceeding 5%) were excluded. 
 
 <div align="center">
-  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/AllshVSUKAllComps.png"
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/AllshVSGDPminusoutliers.png"
        width="49%" 
        alt="Scatter Chart of FTSE All Share against GDP minus outliers, showing weak correlation and R squared value of 0.0103">
   
-  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/SmallCapVSUKSmallComps.png"
+  <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/SmallCapVSGDPminusoutliers.png"
        width="49%" 
        alt="Scatter Chart of FTSE All Share against GDP minus outliers, showing weak correlation and R squared value of 0.011">
 </div>
