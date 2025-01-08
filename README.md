@@ -112,5 +112,13 @@ The charts indicate a weak correlation, though interpretation is complicated by 
 
 This adjustment increased the R-squared value, but the correlation between GDP and market performance remained weak. This finding is consistent with a report by C. Wilson on GOV.UK[8], which calculated an R-squared value of 0.0174 for GDP between 1994 and 2018, comparable to the 0.0103 value derived from the adjusted data in this analysis.
 
-
+## References:
+1.	What is GDP? (2019) Bank of England. Available at: https://www.bankofengland.co.uk/explainers/what-is-gdp (Accessed: December 2024). 
+2.	Fernando, J. (2024) What is the consumer price index (CPI)?, Investopedia. Available at: https://www.investopedia.com/terms/c/consumerpriceindex.asp (Accessed: December 2024). 
+3.	GDP monthly estimate, UK: October 2024 (2024) Office for National Statistics. Available at: https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpmonthlyestimateuk/october2024 (Accessed: December 2024).
+4.	The financial crisis – 10 years on (2018) Bank of England. Available at: https://www.bankofengland.co.uk/news/2018/september/the-financial-crisis-ten-years-on (Accessed: December 2024).
+5.	Islam, F. (2021) UK economy suffered record annual slump in 2020, BBC. Available at: https://www.bbc.co.uk/news/business-56037123 (Accessed: December 2024).
+6.	Ukraine´s war impact in the UK economy and financial system, Santander. Available at: https://www.santander.com/en/press-room/insights/ukraines-war-impact-in-the-uk-economy-and-financial-system (Accessed: December 2024).
+7.	Fund Sector Definitions, The Investment Association. Available at: https://www.theia.org/industry-data/fund-sectors/definitions (Accessed: December 2024).
+8.	Wilson, C., Smith, A. and Jinks, A. (2019) GDP and investment decisions, GOV.UK. Available at: https://assets.publishing.service.gov.uk/media/5c6c1db0e5274a72b55d58ea/Jan_2019_update.pdf (Accessed: December 2024).
 
