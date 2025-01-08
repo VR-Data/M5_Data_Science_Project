@@ -1,10 +1,23 @@
-# How Global Economic Shocks Impact UK Investing
+# A Review of the Effect of Global Economic Shocks on the UK Economy and Investment Market
 
 ## Contents
 - Project Summary
 - GDP vs CPI
 - Key Data Points
+     - Macroeconomic data
+     - Proxies for the UK investment market
+     - Proxies for the UK CIS market
 - Getting Started
+	- Analysis of GDP, Inflation, and Market Trends Since 2015
+     - Using Linear Regression to Compare Benchmarks
+     - Comparing the Market to GDP
+- Time Series Analysis
+     - CPI Prediction vs Actual
+     - GDP Prediction vs Actual
+     - GDP Prediction vs Actual (Finincial Crisis)
+     - FTSE All Share Prediction vs Actual
+     - FTSE Smaller Companies Prediction vs Actual
+- Final Thoughts
 - References
 
 ## Project Summary:
@@ -51,7 +64,10 @@ Due to the complex nature of the subject, especially given the combined effects 
 The Investment Association (IA) provides broad categories for UK domiciled CIS and provides data based on how these investment vehicles perform in their category as a whole. To mirror the above FTSE benchmarks, the following IA sectors will be used:
 1.	IA UK All Companies – Similar to FTSE All-Share, this category includes CIS that have focus on investing directly into UK companies of any market capitalisation.
 2.	IA UK Smaller Companies – Similar to FTSE SmallCap, this category includes CIS that have focus on investing directly into UK companies with market capitalisation under £100m.
+   
 To learn more about these IA sectors, please visit the IA website[7].
+
+Data for UK investment market and UK CIS market provided by Morningstar.
 
 ## Getting Started:
 
@@ -111,6 +127,59 @@ The charts indicate a weak correlation, though interpretation is complicated by 
 </div>
 
 This adjustment increased the R-squared value, but the correlation between GDP and market performance remained weak. This finding is consistent with a report by C. Wilson on GOV.UK[8], which calculated an R-squared value of 0.0174 for GDP between 1994 and 2018, comparable to the 0.0103 value derived from the adjusted data in this analysis.
+
+## Time Series Analysis
+
+In this section, we analyse the time series data for key economic indicators; inflation, GDP, and the FTSE indexes, focusing on their trends and variability prior to the recent economic shocks. Using historical data from 2010 to 2020, a five-year forecast starting at the beginning of 2020 has been generated using PowerBI's forecast function to project their expected performance in the absence of shocks. This forecast is then compared to the actual observed values to evaluate deviations and assess whether the impacts of recent shocks align with or diverge from pre-existing trends. The charts created in PowerBI visually illustrate these comparisons, helping to contextualize the magnitude and nature of these disruptions.
+
+### CPI Prediction vs Actual
+
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/CPI_TimeSeries.PNG" 
+     width="100%" 
+     height="auto" 
+     alt="CPI Trend since 2010, with forecast from 2020 showing a sharp rise in inflation but a steady growth on the forecast">
+
+This chart displays the trend of inflation (CPI), which remained steady until around March 2021, at which point it experienced a sharp increase of over 20% since 2010. The forecast, however, anticipated a steady growth trajectory, with the upper limit of the 95% confidence interval predicting no more than a 12% increase. This substantial deviation from the forecast suggests that inflation during this period significantly exceeded normal circumstances. Moreover, the continued upward trajectory indicates that inflation shows no immediate signs of returning to the expected levels, marking a departure from historical patterns.
+
+### GDP Prediction vs Actual
+
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/GDP_Timeseries.PNG" 
+     width="100%" 
+     height="auto" 
+     alt="GDP vs CPI Trend Chart Since 2000">
+
+This chart illustrates the performance of GDP, which experienced an unprecedented decline during the initial COVID-19 lockdown. This sharp fall was followed by a swift recovery, initially below the predicted levels, but subsequently meeting expectations, bringing GDP within the forecast range. GDP then remained within the forecasted bounds until June 2024, at which point it dropped below the lower limits of the prediction. This decline is attributed to stagnancy in economic growth, suggesting a slowdown after the initial recovery phase.
+
+### GDP Prediction vs Actual (2008 Financial Crisis)
+
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/GDP2008_Timeseries.PNG" 
+     width="100%" 
+     height="auto" 
+     alt="GDP vs CPI Trend Chart Since 2000">
+
+In contrast to the previous chart, this chart compares GDP during the 2008 financial crisis, where a significant decline in economic output was followed by a shift to a new trend line, as opposed to the return to form presented following the recent economic shocks. This new trend line was, on average, 5% lower than the lower bound of the forecast. This suggests that the economic recovery post-crisis was not only slower but also sustained at a level lower than originally predicted, reflecting the long-term structural impacts of the financial crisis on the economy.
+
+### FTSE All Share Prediction vs Actual
+
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/FTSEAllShare_Timeseries.PNG" 
+     width="100%" 
+     height="auto" 
+     alt="GDP vs CPI Trend Chart Since 2000">
+
+The next chart focuses on the FTSE All Share index with forecasts generated since 2020 based on data from 2010 to 2020. In contrast to the UK economy, the actual data for the FTSE initially fell below the predicted values but quickly rebounded, returning well within the forecasted lines. This highlights the resiliency of the investment market, which demonstrated a swift recovery and continued to perform within expectations, even amidst the severe economic conditions caused by the COVID-19 pandemic and subsequent shocks.
+
+### FTSE SmallCap Prediction vs Actual
+
+<img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/FTSESmallCap_Timeseries.PNG" 
+     width="100%" 
+     height="auto" 
+     alt="GDP vs CPI Trend Chart Since 2000">
+
+The final chart presents the FTSE SmallCap index, which not only rebounded more quickly than the FTSE All Share index but also briefly exceeded the predicted forecast before stabilizing close to the predicted trend line. This suggests that, despite the challenging economic conditions, small companies were able to outperform expectations, highlighting their ability to adapt and succeed even in times of hardship.
+
+## Final Thoughts
+
+In conclusion, this project has highlighted the resilience and adaptability of the UK investment market during periods of economic upheaval. By comparing the performance of CPI and GDP, we identified clear signs of change during economic shocks, underscoring the vulnerability of the economy. However, when juxtaposed with the UK CIS market, a stark contrast emerged, showing much stronger trends in market performance. Linear regression analysis further demonstrated that while GDP does not strongly correlate with market movements, as evidenced by a low R-squared value and supported by C Wilson's report on GDP and investment decisions, FTSE performance emerges as a strong indicator of UK domiciled CIS performance. With a 90% confidence correlation established between the FTSE and IA sectors, this analysis reinforces the idea that investment markets often outperform national economic trends. Lastly, time series analysis revealed that while the economy is recovering from recent shocks, it remains outside predicted trends, contrasting with the robust recovery observed in the investment market. Overall, these findings suggest that, even amid economic challenges, investment markets, particularly those tracked by indices such as FTSE, show a remarkable ability to recover and thrive, offering valuable insights for future investment strategies.
 
 ## References:
 1.	What is GDP? (2019) Bank of England. Available at: https://www.bankofengland.co.uk/explainers/what-is-gdp (Accessed: December 2024). 
