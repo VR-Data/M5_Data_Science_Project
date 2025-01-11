@@ -137,7 +137,7 @@ In this section, we analyse the time series data for key economic indicators; in
 <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/CPI_TimeSeries.PNG" 
      width="100%" 
      height="auto" 
-     alt="CPI Trend since 2010, with forecast from 2020 showing a sharp rise in inflation but a steady growth on the forecast">
+     alt="CPI trend since 2010, with forecast from 2020 showing a sharp rise in inflation but a steady growth on the forecast">
 
 This chart displays the trend of inflation (CPI), which remained steady until around March 2021, at which point it experienced a sharp increase of over 20% since 2010. The forecast, however, anticipated a steady growth trajectory, with the upper limit of the 95% confidence interval predicting no more than a 12% increase. This substantial deviation from the forecast suggests that inflation during this period significantly exceeded normal circumstances. Moreover, the continued upward trajectory indicates that inflation shows no immediate signs of returning to the expected levels, marking a departure from historical patterns.
 
@@ -146,7 +146,7 @@ This chart displays the trend of inflation (CPI), which remained steady until ar
 <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/GDP_Timeseries.PNG" 
      width="100%" 
      height="auto" 
-     alt="GDP vs CPI Trend Chart Since 2000">
+     alt="GDP trend since 2010, with steady growth until 2020, where there is a sharp drop before return to form, then stagnation below the forecasted trend">
 
 This chart illustrates the performance of GDP, which experienced an unprecedented decline during the initial COVID-19 lockdown. This sharp fall was followed by a swift recovery, initially below the predicted levels, but subsequently meeting expectations, bringing GDP within the forecast range. GDP then remained within the forecasted bounds until June 2024, at which point it dropped below the lower limits of the prediction. This decline is attributed to stagnancy in economic growth, suggesting a slowdown after the initial recovery phase.
 
@@ -155,7 +155,7 @@ This chart illustrates the performance of GDP, which experienced an unprecedente
 <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/GDP2008_Timeseries.PNG" 
      width="100%" 
      height="auto" 
-     alt="GDP vs CPI Trend Chart Since 2000">
+     alt="GDP trend since 2000 to 2013, showing a drop in 2008 and a new trend line, lower than the forecasted prediction">
 
 In contrast to the previous chart, this chart compares GDP during the 2008 financial crisis, where a significant decline in economic output was followed by a shift to a new trend line, as opposed to the return to form presented following the recent economic shocks. This new trend line was, on average, 5% lower than the lower bound of the forecast. This suggests that the economic recovery post-crisis was not only slower but also sustained at a level lower than originally predicted, reflecting the long-term structural impacts of the financial crisis on the economy.
 
@@ -164,7 +164,7 @@ In contrast to the previous chart, this chart compares GDP during the 2008 finan
 <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/FTSEAllShare_Timeseries.PNG" 
      width="100%" 
      height="auto" 
-     alt="GDP vs CPI Trend Chart Since 2000">
+     alt="FTSE All Share trend since 2010, showing steady growth with a drop in 2020, before continuing closely to the forecasted trend line">
 
 The next chart focuses on the FTSE All Share index with forecasts generated since 2020 based on data from 2010 to 2020. In contrast to the UK economy, the actual data for the FTSE initially fell below the predicted values but quickly rebounded, returning well within the forecasted lines. This highlights the resiliency of the investment market, which demonstrated a swift recovery and continued to perform within expectations, even amidst the severe economic conditions caused by the COVID-19 pandemic and subsequent shocks.
 
@@ -173,7 +173,7 @@ The next chart focuses on the FTSE All Share index with forecasts generated sinc
 <img src="https://github.com/VR-Data/M5_Data_Science_Project/blob/main/Images/FTSESmallCap_Timeseries.PNG" 
      width="100%" 
      height="auto" 
-     alt="GDP vs CPI Trend Chart Since 2000">
+     alt="FTSE Small Cap trend since 2010, showing steady growth before a small drop in 2020, before significant growth within the forecasted trend limits, before continuing closely to the forecasted trend line">
 
 The final chart presents the FTSE SmallCap index, which not only rebounded more quickly than the FTSE All Share index but also briefly exceeded the predicted forecast before stabilizing close to the predicted trend line. This suggests that, despite the challenging economic conditions, small companies were able to outperform expectations, highlighting their ability to adapt and succeed even in times of hardship.
 
